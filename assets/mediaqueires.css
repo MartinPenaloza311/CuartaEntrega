@@ -1,0 +1,76 @@
+/* Tablet */
+@media (max-width: 992px) {
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .contacto-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto-container img {
+        display: none;
+    }
+
+    .contacto-info p {
+        font-weight: 100px;
+        max-width: 80%;
+    }
+
+    #city {
+        font-size: 25px;
+        font-weight: 100;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 576px) {
+    #info p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: 350px;
+    }
+    #contacto {
+        width: 100%;
+    }
+    .contacto-info  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        font-weight: 100;
+    }
+    #city {
+        max-width: 200px;
+    }
+    #Email {
+        max-width: 200px;
+    }
+    #Numero {
+        max-width: 200px;
+    }
+    #ubicacion {
+        max-width: 200px;
+    }
+}
+
+@media (max-width:280px) {
+    .info-card {
+        width: 90%;
+        height: 350px;
+        justify-content: center;
+    }
+    .info-card p {
+        width: 90%;
+    }
+}
